@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-int playerMove;
-int AIMove;
-
-
 
 
 @interface ViewController : UIViewController
-
+{
+    int playerMove;
+    int AIMove;
+    int winner;
+}
 @property (weak, nonatomic) IBOutlet UIImageView *player;
 @property (weak, nonatomic) IBOutlet UIImageView *computer;
+@property (weak, nonatomic) IBOutlet UILabel *scoreBoard;
 
 @end
