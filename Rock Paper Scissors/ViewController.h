@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+int playerMove;
+int AIMove;
+
+
+
+
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *player;
+@property (weak, nonatomic) IBOutlet UIImageView *computer;
 
 @end

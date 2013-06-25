@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F01A5F0177A2E9A00A89909 /* scissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F01A5EF177A2E9A00A89909 /* scissors.jpeg */; };
+		3F01A5F2177A2EAF00A89909 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F01A5F1177A2EAF00A89909 /* rock.png */; };
+		3F01A5F4177A2EBD00A89909 /* paper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F01A5F3177A2EBD00A89909 /* paper.jpeg */; };
 		3F8231E91779F6FE0017A738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8231E81779F6FE0017A738 /* UIKit.framework */; };
 		3F8231EB1779F6FE0017A738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8231EA1779F6FE0017A738 /* Foundation.framework */; };
 		3F8231ED1779F6FE0017A738 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8231EC1779F6FE0017A738 /* CoreGraphics.framework */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F01A5EF177A2E9A00A89909 /* scissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scissors.jpeg; sourceTree = "<group>"; };
+		3F01A5F1177A2EAF00A89909 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		3F01A5F3177A2EBD00A89909 /* paper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpeg; sourceTree = "<group>"; };
 		3F8231E51779F6FE0017A738 /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8231E81779F6FE0017A738 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F8231EA1779F6FE0017A738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +105,9 @@
 		3F8231EF1779F6FE0017A738 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F01A5EF177A2E9A00A89909 /* scissors.jpeg */,
+				3F01A5F3177A2EBD00A89909 /* paper.jpeg */,
+				3F01A5F1177A2EAF00A89909 /* rock.png */,
 				3F8231F01779F6FE0017A738 /* Rock Paper Scissors-Info.plist */,
 				3F8231F11779F6FE0017A738 /* InfoPlist.strings */,
 				3F8231F41779F6FE0017A738 /* main.m */,
@@ -167,6 +176,9 @@
 				3F8231FF1779F6FE0017A738 /* Default-568h@2x.png in Resources */,
 				3F8232051779F6FE0017A738 /* ViewController_iPhone.xib in Resources */,
 				3F8232081779F6FE0017A738 /* ViewController_iPad.xib in Resources */,
+				3F01A5F0177A2E9A00A89909 /* scissors.jpeg in Resources */,
+				3F01A5F2177A2EAF00A89909 /* rock.png in Resources */,
+				3F01A5F4177A2EBD00A89909 /* paper.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				3F82320D1779F6FE0017A738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
